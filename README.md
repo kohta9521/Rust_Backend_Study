@@ -1,5 +1,5 @@
 <div align="center">
- <img alt="logo" src="https://github.com/kohta9521/Rust_Backend_Study/assets/100065508/76fe20dd-665b-45bc-86b1-068a6975bf6e">
+ <img alt="logo" width="500px" src="https://github.com/kohta9521/Rust_Backend_Study/assets/100065508/83745070-1014-41ed-80e9-402aaca5d9b7">
     <h1 align="center">Rust lang Study Project</h1>
     <br />
     <p align="center">
