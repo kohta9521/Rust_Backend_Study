@@ -1,1 +1,0 @@
-/Users/kohtakochi/Desktop/Study/rust_study/book/2.chapter/3.section/bingocard_vec/target/debug/bingocard_vec: /Users/kohtakochi/Desktop/Study/rust_study/book/2.chapter/3.section/bingocard_vec/src/main.rs
