@@ -52,7 +52,33 @@ pub fn run() {
     // 配列
     let a1: [i32; 5]= [1, 2, 3, 4, 5];
     let a2 = [0; 10];
-    println!("{:?} {:?} {} {}", a1, a2, a1[2], a1[3])
+    println!("{:?} {:?} {} {}", a1, a2, a1[2], a1[3]);
+
+    // 文字列スライス
+    let s1: &str = "helloこんにちは挨拶"; // 26bytes
+    let s2: &str = "hello";
+    println!("Stack address of s1 is: {:p}", &s1);
+    println!("Stack address of s2 is: {:p}", &s2);
+    println!("Stack address of s1 is: {:p}", &s1.as_ptr());
+    println!("Stack address of s2 is: {:p}", &s2.as_ptr());
+    println!("Len of s1 is: {}", s1.len());
+    println!("Len of s2 is: {}", s2.len());
+
+    // string type
+    // hipe領域にぶち込まれる
+    let mut s1: String = String::from("hello");
+    let mut s2: String = String::from("helloworld");
+    println!("Stack address of s1 is: {:p}", &s1);
+    println!("Stack address of s2 is: {:p}", &s2);
+    println!("Stack address of s1 is: {:p}", s1.as_ptr());
+    println!("Stack address of s2 is: {:p}", s2.as_ptr());
+    println!("Capacity of s1 is: {}", s1.capacity());
+    println!("Capacity of s2 is: {}", s2.capacity());
+
+    s1.push_str("_new1");
+    s2.push_str("_new2");
+
+    println!("{} {}", s1, s2);
 
 
 }
